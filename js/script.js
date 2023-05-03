@@ -60,7 +60,7 @@ function mudaCor() {
     let g = Math.ceil(Math.random()*255);
     let b = Math.ceil(Math.random()*255);
     
-    const elemento = [...document.getElementsByClassName("conteudo")];
+    const elemento = [...document.getElementsByClassName("conteudo")];  
     elemento.forEach( (el)=>{
         el.style.backgroundColor = `rgb(${r},${g},${b})`;
     } )
